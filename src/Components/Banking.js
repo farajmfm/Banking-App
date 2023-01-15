@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useDispatch } from 'redux'
+import { useDispatch } from 'react-redux'
 
 import { deposit, withDraw, collectInterest, deleteAccount, toggleAccount } from '../Actions'
 

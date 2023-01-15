@@ -2,8 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 
 const AccountType = () => {
-    const isSavingAccount = useSelector(state => state.isSavingAccount)
-    console.log(state)
+    const isSavingAccount = useSelector(({ banking }) => banking.isSavingAccount)
     return (
         <div>
             <hr />

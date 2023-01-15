@@ -3,6 +3,7 @@ import AccountType from './Components/AccountType';
 import Balance from './Components/Balance';
 import Banking from './Components/Banking';
 import Header from './Components/Header';
+import LogIn from './Components/LogIn';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Balance />
       <AccountType />
       <Banking />
+      <LogIn />
     </div>
   );
 }

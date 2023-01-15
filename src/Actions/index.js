@@ -25,9 +25,14 @@ export const deleteAccount = amount => {
     }
 }
 
-
 export const toggleAccount = () => {
     return {
         type: 'TOGGLE',
+    }
+}
+
+export const toggleLogIn = () => {
+    return {
+        type: 'IS_LOGGED-IN',
     }
 }
