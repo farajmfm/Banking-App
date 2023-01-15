@@ -1,10 +1,14 @@
 import 'bulma'
+import Balance from './Components/Balance';
+import Banking from './Components/Banking';
+import Header from './Components/Header';
 
 function App() {
   return (
     <div className='section'>
-      <h1 className='title has-text-centered is-size-1'>Banking App</h1>
-      <hr /> 
+      <Header />
+      <Banking />
+      <Balance />
     </div>
   );
 }
