@@ -2,7 +2,9 @@ import React from 'react'
 
 const Balance = () => {
     return (
-        <div></div>
+        <div>
+            <h1 className='is-size-2'>Balance : <strong>$100</strong></h1>
+        </div>
     )
 }
 
